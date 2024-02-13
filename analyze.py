@@ -33,7 +33,6 @@ while line:
     
     line = next(reader, None)
 
-
 data_file.close()
 
 decade = 1880
