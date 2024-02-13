@@ -31,7 +31,7 @@ for line in lines[index1 + 1: index2 + 1]:
                 if temp.isdigit() or (temp.startswith('-') and temp[1:].isdigit()):
                     celsius_hundredths = int(temp)
                     celsius = celsius_hundredths / 100.0
-                    fahrenheit = (celsius * 9.0 / 5.0) + 32
+                    fahrenheit = (celsius * 9.0 / 5.0)
                     cleaned_temp = format(fahrenheit, '.1f')
                 else:
                     cleaned_temp= ''
